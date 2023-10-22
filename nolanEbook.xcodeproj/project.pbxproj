@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52B691F22AE56F2000CC97FD /* directorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F12AE56F2000CC97FD /* directorView.swift */; };
+		52B691F42AE5715900CC97FD /* BTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F32AE5715800CC97FD /* BTSView.swift */; };
+		52B691F62AE58CEF00CC97FD /* movieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F52AE58CEF00CC97FD /* movieView.swift */; };
+		52B691F82AE58E2800CC97FD /* BTSNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F72AE58E2800CC97FD /* BTSNavView.swift */; };
+		52B691FA2AE58F9A00CC97FD /* tenetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F92AE58F9A00CC97FD /* tenetView.swift */; };
+		52FD86992AE546F60045DCB5 /* nolanEbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */; };
+		52FD869B2AE546F60045DCB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD869A2AE546F60045DCB5 /* ContentView.swift */; };
+		52FD869D2AE546F80045DCB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD869C2AE546F80045DCB5 /* Assets.xcassets */; };
+		52FD86A02AE546F80045DCB5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52FD869F2AE546F80045DCB5 /* Preview Assets.xcassets */; };
+		52FD86AA2AE546F80045DCB5 /* nolanEbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86A92AE546F80045DCB5 /* nolanEbookTests.swift */; };
+		52FD86B42AE546F80045DCB5 /* nolanEbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86B32AE546F80045DCB5 /* nolanEbookUITests.swift */; };
+		52FD86B62AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52FD86A62AE546F80045DCB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FD868D2AE546F60045DCB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FD86942AE546F60045DCB5;
+			remoteInfo = nolanEbook;
+		};
+		52FD86B02AE546F80045DCB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52FD868D2AE546F60045DCB5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52FD86942AE546F60045DCB5;
+			remoteInfo = nolanEbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52B691F12AE56F2000CC97FD /* directorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directorView.swift; sourceTree = "<group>"; };
+		52B691F32AE5715800CC97FD /* BTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSView.swift; sourceTree = "<group>"; };
+		52B691F52AE58CEF00CC97FD /* movieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieView.swift; sourceTree = "<group>"; };
+		52B691F72AE58E2800CC97FD /* BTSNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSNavView.swift; sourceTree = "<group>"; };
+		52B691F92AE58F9A00CC97FD /* tenetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenetView.swift; sourceTree = "<group>"; };
+		52FD86952AE546F60045DCB5 /* nolanEbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nolanEbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookApp.swift; sourceTree = "<group>"; };
+		52FD869A2AE546F60045DCB5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52FD869C2AE546F80045DCB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52FD869F2AE546F80045DCB5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52FD86A52AE546F80045DCB5 /* nolanEbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nolanEbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FD86A92AE546F80045DCB5 /* nolanEbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookTests.swift; sourceTree = "<group>"; };
+		52FD86AF2AE546F80045DCB5 /* nolanEbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nolanEbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52FD86B32AE546F80045DCB5 /* nolanEbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookUITests.swift; sourceTree = "<group>"; };
+		52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52FD86922AE546F60045DCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86A22AE546F80045DCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86AC2AE546F80045DCB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52FD868C2AE546F60045DCB5 = {
+			isa = PBXGroup;
+			children = (
+				52FD86972AE546F60045DCB5 /* nolanEbook */,
+				52FD86A82AE546F80045DCB5 /* nolanEbookTests */,
+				52FD86B22AE546F80045DCB5 /* nolanEbookUITests */,
+				52FD86962AE546F60045DCB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52FD86962AE546F60045DCB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52FD86952AE546F60045DCB5 /* nolanEbook.app */,
+				52FD86A52AE546F80045DCB5 /* nolanEbookTests.xctest */,
+				52FD86AF2AE546F80045DCB5 /* nolanEbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52FD86972AE546F60045DCB5 /* nolanEbook */ = {
+			isa = PBXGroup;
+			children = (
+				52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */,
+				52FD869A2AE546F60045DCB5 /* ContentView.swift */,
+				52B691F12AE56F2000CC97FD /* directorView.swift */,
+				52B691F52AE58CEF00CC97FD /* movieView.swift */,
+				52B691F32AE5715800CC97FD /* BTSView.swift */,
+				52B691F72AE58E2800CC97FD /* BTSNavView.swift */,
+				52B691F92AE58F9A00CC97FD /* tenetView.swift */,
+				52FD869C2AE546F80045DCB5 /* Assets.xcassets */,
+				52FD869E2AE546F80045DCB5 /* Preview Content */,
+			);
+			path = nolanEbook;
+			sourceTree = "<group>";
+		};
+		52FD869E2AE546F80045DCB5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52FD869F2AE546F80045DCB5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52FD86A82AE546F80045DCB5 /* nolanEbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				52FD86A92AE546F80045DCB5 /* nolanEbookTests.swift */,
+			);
+			path = nolanEbookTests;
+			sourceTree = "<group>";
+		};
+		52FD86B22AE546F80045DCB5 /* nolanEbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52FD86B32AE546F80045DCB5 /* nolanEbookUITests.swift */,
+				52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */,
+			);
+			path = nolanEbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52FD86942AE546F60045DCB5 /* nolanEbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FD86B92AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbook" */;
+			buildPhases = (
+				52FD86912AE546F60045DCB5 /* Sources */,
+				52FD86922AE546F60045DCB5 /* Frameworks */,
+				52FD86932AE546F60045DCB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nolanEbook;
+			productName = nolanEbook;
+			productReference = 52FD86952AE546F60045DCB5 /* nolanEbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52FD86A42AE546F80045DCB5 /* nolanEbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FD86BC2AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbookTests" */;
+			buildPhases = (
+				52FD86A12AE546F80045DCB5 /* Sources */,
+				52FD86A22AE546F80045DCB5 /* Frameworks */,
+				52FD86A32AE546F80045DCB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FD86A72AE546F80045DCB5 /* PBXTargetDependency */,
+			);
+			name = nolanEbookTests;
+			productName = nolanEbookTests;
+			productReference = 52FD86A52AE546F80045DCB5 /* nolanEbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52FD86AE2AE546F80045DCB5 /* nolanEbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52FD86BF2AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbookUITests" */;
+			buildPhases = (
+				52FD86AB2AE546F80045DCB5 /* Sources */,
+				52FD86AC2AE546F80045DCB5 /* Frameworks */,
+				52FD86AD2AE546F80045DCB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52FD86B12AE546F80045DCB5 /* PBXTargetDependency */,
+			);
+			name = nolanEbookUITests;
+			productName = nolanEbookUITests;
+			productReference = 52FD86AF2AE546F80045DCB5 /* nolanEbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52FD868D2AE546F60045DCB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					52FD86942AE546F60045DCB5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					52FD86A42AE546F80045DCB5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52FD86942AE546F60045DCB5;
+					};
+					52FD86AE2AE546F80045DCB5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 52FD86942AE546F60045DCB5;
+					};
+				};
+			};
+			buildConfigurationList = 52FD86902AE546F60045DCB5 /* Build configuration list for PBXProject "nolanEbook" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52FD868C2AE546F60045DCB5;
+			productRefGroup = 52FD86962AE546F60045DCB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52FD86942AE546F60045DCB5 /* nolanEbook */,
+				52FD86A42AE546F80045DCB5 /* nolanEbookTests */,
+				52FD86AE2AE546F80045DCB5 /* nolanEbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52FD86932AE546F60045DCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FD86A02AE546F80045DCB5 /* Preview Assets.xcassets in Resources */,
+				52FD869D2AE546F80045DCB5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86A32AE546F80045DCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86AD2AE546F80045DCB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52FD86912AE546F60045DCB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52B691FA2AE58F9A00CC97FD /* tenetView.swift in Sources */,
+				52B691F42AE5715900CC97FD /* BTSView.swift in Sources */,
+				52FD869B2AE546F60045DCB5 /* ContentView.swift in Sources */,
+				52B691F82AE58E2800CC97FD /* BTSNavView.swift in Sources */,
+				52B691F22AE56F2000CC97FD /* directorView.swift in Sources */,
+				52B691F62AE58CEF00CC97FD /* movieView.swift in Sources */,
+				52FD86992AE546F60045DCB5 /* nolanEbookApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86A12AE546F80045DCB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FD86AA2AE546F80045DCB5 /* nolanEbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52FD86AB2AE546F80045DCB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FD86B62AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift in Sources */,
+				52FD86B42AE546F80045DCB5 /* nolanEbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52FD86A72AE546F80045DCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FD86942AE546F60045DCB5 /* nolanEbook */;
+			targetProxy = 52FD86A62AE546F80045DCB5 /* PBXContainerItemProxy */;
+		};
+		52FD86B12AE546F80045DCB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52FD86942AE546F60045DCB5 /* nolanEbook */;
+			targetProxy = 52FD86B02AE546F80045DCB5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52FD86B72AE546F80045DCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52FD86B82AE546F80045DCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52FD86BA2AE546F80045DCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nolanEbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52FD86BB2AE546F80045DCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"nolanEbook/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52FD86BD2AE546F80045DCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nolanEbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nolanEbook";
+			};
+			name = Debug;
+		};
+		52FD86BE2AE546F80045DCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/nolanEbook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/nolanEbook";
+			};
+			name = Release;
+		};
+		52FD86C02AE546F80045DCB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nolanEbook;
+			};
+			name = Debug;
+		};
+		52FD86C12AE546F80045DCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = space.nolanEbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = nolanEbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52FD86902AE546F60045DCB5 /* Build configuration list for PBXProject "nolanEbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FD86B72AE546F80045DCB5 /* Debug */,
+				52FD86B82AE546F80045DCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FD86B92AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FD86BA2AE546F80045DCB5 /* Debug */,
+				52FD86BB2AE546F80045DCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FD86BC2AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FD86BD2AE546F80045DCB5 /* Debug */,
+				52FD86BE2AE546F80045DCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52FD86BF2AE546F80045DCB5 /* Build configuration list for PBXNativeTarget "nolanEbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52FD86C02AE546F80045DCB5 /* Debug */,
+				52FD86C12AE546F80045DCB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52FD868D2AE546F60045DCB5 /* Project object */;
+}
