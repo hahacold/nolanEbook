@@ -45,25 +45,41 @@ struct BTSView: View {
                     
                     ForEach(ShuffledbtsPhotos) { btsPhoto in
                         //ZStack(){
-                        NavigationLink {
-                            whichview(movie: btsPhoto.movie)
-                        } label: {
+                        
+                        ZStack{
                             Image(btsPhoto.name)
                                 .resizable()
                                 .scaledToFill()
-                                .animation(.easeInOut(duration: 4), value: show)
-                                .onAppear{
-                                    show = true
-                                }
-                                .onTapGesture {
+                            
+                                .onTapGesture(count: 2){
                                     show = !show
                                 }
-                        }
+                            NavigationLink {
+                                whichview(movie: btsPhoto.movie)
+                            } label: {
+                                Text(btsPhoto.movie.capitalized)
+                                    .bold()
+                                    .italic()
+                                    .padding(10)
+                                    .background {
+                                    
+                                        RoundedRectangle(cornerRadius: 30)
+                                            .foregroundStyle(Gradient(colors: [.white,.gray]))
+                                    }
+                                    
+                                    
+                            }.offset(x:140,y:70)
+                            
+                        }.animation(.easeInOut(duration: 4), value: show)
+                            .onAppear{
+                                show = true
+                            }
                     }
                 }
                 
                 
-            }.ignoresSafeArea()
+            }.background(Gradient(colors: [.black,.gray,.white]))
+                .ignoresSafeArea()
         }
         
         
