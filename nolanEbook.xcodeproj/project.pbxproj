@@ -40,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		521FB3D92AE6D3BB00A16AE1 /* actorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actorView.swift; sourceTree = "<group>"; };
+		521FB3DB2AE6EB9E00A16AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		52B691F12AE56F2000CC97FD /* directorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directorView.swift; sourceTree = "<group>"; };
 		52B691F32AE5715800CC97FD /* BTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSView.swift; sourceTree = "<group>"; };
 		52B691F52AE58CEF00CC97FD /* movieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieView.swift; sourceTree = "<group>"; };
@@ -113,6 +114,7 @@
 		52FD86972AE546F60045DCB5 /* nolanEbook */ = {
 			isa = PBXGroup;
 			children = (
+				521FB3DB2AE6EB9E00A16AE1 /* Info.plist */,
 				52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */,
 				52FD869A2AE546F60045DCB5 /* ContentView.swift */,
 				521FB3D92AE6D3BB00A16AE1 /* actorView.swift */,
@@ -452,9 +454,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nolanEbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nolanEbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,9 +482,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"nolanEbook/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nolanEbook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
