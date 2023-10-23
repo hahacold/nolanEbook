@@ -19,8 +19,7 @@ struct ContentView: View {
                 .tabItem {
                     Label("電影", systemImage: "movieclapper")
                 }
-
-            BTSNavView()
+            BTSView()
                 .tabItem {
                     Label("幕後花絮", systemImage: "camera")
                 }

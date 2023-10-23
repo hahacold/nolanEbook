@@ -10,7 +10,6 @@
 		52B691F22AE56F2000CC97FD /* directorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F12AE56F2000CC97FD /* directorView.swift */; };
 		52B691F42AE5715900CC97FD /* BTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F32AE5715800CC97FD /* BTSView.swift */; };
 		52B691F62AE58CEF00CC97FD /* movieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F52AE58CEF00CC97FD /* movieView.swift */; };
-		52B691F82AE58E2800CC97FD /* BTSNavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F72AE58E2800CC97FD /* BTSNavView.swift */; };
 		52B691FA2AE58F9A00CC97FD /* tenetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F92AE58F9A00CC97FD /* tenetView.swift */; };
 		52FD86992AE546F60045DCB5 /* nolanEbookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */; };
 		52FD869B2AE546F60045DCB5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD869A2AE546F60045DCB5 /* ContentView.swift */; };
@@ -42,7 +41,6 @@
 		52B691F12AE56F2000CC97FD /* directorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directorView.swift; sourceTree = "<group>"; };
 		52B691F32AE5715800CC97FD /* BTSView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSView.swift; sourceTree = "<group>"; };
 		52B691F52AE58CEF00CC97FD /* movieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieView.swift; sourceTree = "<group>"; };
-		52B691F72AE58E2800CC97FD /* BTSNavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTSNavView.swift; sourceTree = "<group>"; };
 		52B691F92AE58F9A00CC97FD /* tenetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tenetView.swift; sourceTree = "<group>"; };
 		52FD86952AE546F60045DCB5 /* nolanEbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nolanEbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD86982AE546F60045DCB5 /* nolanEbookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookApp.swift; sourceTree = "<group>"; };
@@ -81,10 +79,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52B934BA2AE6836E00DCBA9A /* movie */ = {
+			isa = PBXGroup;
+			children = (
+				52B691F92AE58F9A00CC97FD /* tenetView.swift */,
+			);
+			path = movie;
+			sourceTree = "<group>";
+		};
 		52FD868C2AE546F60045DCB5 = {
 			isa = PBXGroup;
 			children = (
 				52FD86972AE546F60045DCB5 /* nolanEbook */,
+				52B934BA2AE6836E00DCBA9A /* movie */,
 				52FD86A82AE546F80045DCB5 /* nolanEbookTests */,
 				52FD86B22AE546F80045DCB5 /* nolanEbookUITests */,
 				52FD86962AE546F60045DCB5 /* Products */,
@@ -109,8 +116,6 @@
 				52B691F12AE56F2000CC97FD /* directorView.swift */,
 				52B691F52AE58CEF00CC97FD /* movieView.swift */,
 				52B691F32AE5715800CC97FD /* BTSView.swift */,
-				52B691F72AE58E2800CC97FD /* BTSNavView.swift */,
-				52B691F92AE58F9A00CC97FD /* tenetView.swift */,
 				52FD869C2AE546F80045DCB5 /* Assets.xcassets */,
 				52FD869E2AE546F80045DCB5 /* Preview Content */,
 			);
@@ -275,7 +280,6 @@
 				52B691FA2AE58F9A00CC97FD /* tenetView.swift in Sources */,
 				52B691F42AE5715900CC97FD /* BTSView.swift in Sources */,
 				52FD869B2AE546F60045DCB5 /* ContentView.swift in Sources */,
-				52B691F82AE58E2800CC97FD /* BTSNavView.swift in Sources */,
 				52B691F22AE56F2000CC97FD /* directorView.swift in Sources */,
 				52B691F62AE58CEF00CC97FD /* movieView.swift in Sources */,
 				52FD86992AE546F60045DCB5 /* nolanEbookApp.swift in Sources */,
