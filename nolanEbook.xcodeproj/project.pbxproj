@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5212A9462AE807A800907758 /* inceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212A9452AE807A800907758 /* inceptionView.swift */; };
+		5212A9482AE807C500907758 /* batmanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212A9472AE807C500907758 /* batmanView.swift */; };
+		5212A94A2AE807DC00907758 /* interstellarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212A9492AE807DC00907758 /* interstellarView.swift */; };
+		5212A94C2AE80D0C00907758 /* underdevelopmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5212A94B2AE80D0C00907758 /* underdevelopmentView.swift */; };
 		521FB3DA2AE6D3BB00A16AE1 /* actorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521FB3D92AE6D3BB00A16AE1 /* actorView.swift */; };
 		52B691F22AE56F2000CC97FD /* directorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F12AE56F2000CC97FD /* directorView.swift */; };
 		52B691F42AE5715900CC97FD /* BTSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B691F32AE5715800CC97FD /* BTSView.swift */; };
@@ -19,6 +23,10 @@
 		52FD86AA2AE546F80045DCB5 /* nolanEbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86A92AE546F80045DCB5 /* nolanEbookTests.swift */; };
 		52FD86B42AE546F80045DCB5 /* nolanEbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86B32AE546F80045DCB5 /* nolanEbookUITests.swift */; };
 		52FD86B62AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */; };
+		52FEA1692AE837E3009773E9 /* level1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEA1682AE837E3009773E9 /* level1View.swift */; };
+		52FEA16C2AE83B64009773E9 /* level2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEA16B2AE83B64009773E9 /* level2View.swift */; };
+		52FEA16E2AE83B98009773E9 /* level3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEA16D2AE83B98009773E9 /* level3View.swift */; };
+		52FEA1702AE83BC7009773E9 /* level4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52FEA16F2AE83BC7009773E9 /* level4View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5212A9452AE807A800907758 /* inceptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inceptionView.swift; sourceTree = "<group>"; };
+		5212A9472AE807C500907758 /* batmanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = batmanView.swift; sourceTree = "<group>"; };
+		5212A9492AE807DC00907758 /* interstellarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = interstellarView.swift; sourceTree = "<group>"; };
+		5212A94B2AE80D0C00907758 /* underdevelopmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = underdevelopmentView.swift; sourceTree = "<group>"; };
 		521FB3D92AE6D3BB00A16AE1 /* actorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = actorView.swift; sourceTree = "<group>"; };
 		521FB3DB2AE6EB9E00A16AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		52B691F12AE56F2000CC97FD /* directorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = directorView.swift; sourceTree = "<group>"; };
@@ -55,6 +67,10 @@
 		52FD86AF2AE546F80045DCB5 /* nolanEbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nolanEbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52FD86B32AE546F80045DCB5 /* nolanEbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookUITests.swift; sourceTree = "<group>"; };
 		52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nolanEbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52FEA1682AE837E3009773E9 /* level1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level1View.swift; sourceTree = "<group>"; };
+		52FEA16B2AE83B64009773E9 /* level2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level2View.swift; sourceTree = "<group>"; };
+		52FEA16D2AE83B98009773E9 /* level3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level3View.swift; sourceTree = "<group>"; };
+		52FEA16F2AE83BC7009773E9 /* level4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = level4View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +102,10 @@
 			isa = PBXGroup;
 			children = (
 				52B691F92AE58F9A00CC97FD /* tenetView.swift */,
+				5212A9452AE807A800907758 /* inceptionView.swift */,
+				5212A9472AE807C500907758 /* batmanView.swift */,
+				5212A9492AE807DC00907758 /* interstellarView.swift */,
+				52FEA16A2AE83AF9009773E9 /* dream */,
 			);
 			path = movie;
 			sourceTree = "<group>";
@@ -121,6 +141,7 @@
 				52B691F12AE56F2000CC97FD /* directorView.swift */,
 				52B691F52AE58CEF00CC97FD /* movieView.swift */,
 				52B691F32AE5715800CC97FD /* BTSView.swift */,
+				5212A94B2AE80D0C00907758 /* underdevelopmentView.swift */,
 				52FD869C2AE546F80045DCB5 /* Assets.xcassets */,
 				52FD869E2AE546F80045DCB5 /* Preview Content */,
 			);
@@ -150,6 +171,17 @@
 				52FD86B52AE546F80045DCB5 /* nolanEbookUITestsLaunchTests.swift */,
 			);
 			path = nolanEbookUITests;
+			sourceTree = "<group>";
+		};
+		52FEA16A2AE83AF9009773E9 /* dream */ = {
+			isa = PBXGroup;
+			children = (
+				52FEA1682AE837E3009773E9 /* level1View.swift */,
+				52FEA16B2AE83B64009773E9 /* level2View.swift */,
+				52FEA16D2AE83B98009773E9 /* level3View.swift */,
+				52FEA16F2AE83BC7009773E9 /* level4View.swift */,
+			);
+			path = dream;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +315,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				52B691FA2AE58F9A00CC97FD /* tenetView.swift in Sources */,
+				5212A94C2AE80D0C00907758 /* underdevelopmentView.swift in Sources */,
+				5212A94A2AE807DC00907758 /* interstellarView.swift in Sources */,
+				52FEA1702AE83BC7009773E9 /* level4View.swift in Sources */,
 				52B691F42AE5715900CC97FD /* BTSView.swift in Sources */,
+				52FEA16C2AE83B64009773E9 /* level2View.swift in Sources */,
+				52FEA1692AE837E3009773E9 /* level1View.swift in Sources */,
+				5212A9462AE807A800907758 /* inceptionView.swift in Sources */,
+				52FEA16E2AE83B98009773E9 /* level3View.swift in Sources */,
 				52FD869B2AE546F60045DCB5 /* ContentView.swift in Sources */,
+				5212A9482AE807C500907758 /* batmanView.swift in Sources */,
 				52B691F22AE56F2000CC97FD /* directorView.swift in Sources */,
 				52B691F62AE58CEF00CC97FD /* movieView.swift in Sources */,
 				52FD86992AE546F60045DCB5 /* nolanEbookApp.swift in Sources */,

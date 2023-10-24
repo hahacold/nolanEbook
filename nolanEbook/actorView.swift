@@ -9,7 +9,7 @@ import SwiftUI
 
 struct actorView: View {
     var body: some View {
-        Text("Actor View under development")
+        underdevelopmentView()
     }
 }
 

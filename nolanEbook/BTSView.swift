@@ -16,10 +16,19 @@ struct BTSView: View {
     let btsPhotos = [
         BTSPhoto(name: "tenetbts0",movie: "tenet"),
         BTSPhoto(name: "tenetbts1",movie: "tenet"),
+        BTSPhoto(name: "tenetbts2",movie: "tenet"),
+        BTSPhoto(name: "tenetbts3",movie: "tenet"),
         BTSPhoto(name: "batmanbts0",movie: "batman"),
         BTSPhoto(name: "batmanbts1",movie: "batman"),
+        BTSPhoto(name: "dunkirkbts0",movie: "dunkirk"),
+        BTSPhoto(name: "dunkirkbts1",movie: "dunkirk"),
         BTSPhoto(name: "inceptionbts0", movie: "inception"),
-        BTSPhoto(name: "inceptionbts1", movie: "inception")
+        BTSPhoto(name: "inceptionbts1", movie: "inception"),
+        BTSPhoto(name: "inceptionbts2", movie: "inception"),
+        BTSPhoto(name: "interstellarbts0", movie: "interstellar"),
+        BTSPhoto(name: "interstellarbts1", movie: "interstellar"),
+        BTSPhoto(name: "interstellarbts2", movie: "interstellar"),
+        BTSPhoto(name: "oppenheimerbts0", movie: "oppenheimer")
         
         //BTSPhoto(name: "tenetbts0",movie: "tenet")
     ]
@@ -30,9 +39,26 @@ struct BTSView: View {
         if movie == "tenet" {
             return AnyView(tenetView())
         } else if movie == "batman" {
-            return AnyView(movieView())
-        } else {
-            return AnyView(ContentView())
+            return AnyView(batmanView())
+        }
+//        else if movie == "dunkirk" {
+//            return AnyView(dunkirkView())
+//            //待增加
+//        }
+        else if movie == "inception" {
+            return AnyView(inceptionView())
+        }
+        else if movie == "interstellar" {
+            return AnyView(interstellarView())
+        }
+//        else if movie == "oppenheimer" {
+//            return AnyView(oppenheimerView())
+//        }
+//        else if movie == "batman" {
+//            return AnyView(movieView())
+//        }
+        else {
+            return AnyView(underdevelopmentView())
         }
     }
     @State private var show = false

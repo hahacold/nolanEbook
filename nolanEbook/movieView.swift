@@ -29,9 +29,26 @@ struct movieView: View {
         if movie == "tenet" {
             return AnyView(tenetView())
         } else if movie == "batman" {
-            return AnyView(movieView())
-        } else {
-            return AnyView(ContentView())
+            return AnyView(batmanView())
+        }
+//        else if movie == "dunkirk" {
+//            return AnyView(dunkirkView())
+//            //待增加
+//        }
+        else if movie == "inception" {
+            return AnyView(inceptionView())
+        }
+        else if movie == "interstellar" {
+            return AnyView(interstellarView())
+        }
+//        else if movie == "oppenheimer" {
+//            return AnyView(oppenheimerView())
+//        }
+//        else if movie == "batman" {
+//            return AnyView(movieView())
+//        }
+        else {
+            return AnyView(underdevelopmentView())
         }
     }
     @State private var show = false
